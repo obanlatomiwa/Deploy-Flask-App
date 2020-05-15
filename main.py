@@ -8,7 +8,7 @@ import functools
 import jwt
 
 # pylint: disable=import-error
-from flask import (Flask, jsonify, request, abort)
+from flask import Flask, jsonify, request, abort
 
 
 JWT_SECRET = os.environ.get('JWT_SECRET', 'abc123abc1234')
@@ -34,7 +34,7 @@ def _logger():
 
 
 LOG = _logger()
-LOG.debug("Starting with log level: %s" % LOG_LEVEL )
+LOG.debug("Starting with log level: %s" % LOG_LEVEL)
 APP = Flask(__name__)
 
 def require_jwt(function):
