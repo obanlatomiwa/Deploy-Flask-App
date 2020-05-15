@@ -16,6 +16,7 @@ docs/_build/
 __pycache__
 aws-iam-authenticator.exe
 kubectl.exe
+iam-role-policy
 
 # Coverage reports
 htmlcov/
