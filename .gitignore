@@ -16,7 +16,6 @@ docs/_build/
 __pycache__
 aws-iam-authenticator.exe
 kubectl.exe
-aws-auth-patch
 
 # Coverage reports
 htmlcov/
