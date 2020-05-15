@@ -25,12 +25,6 @@ def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
     assert response.json == 'Healthy'
-<<<<<<< HEAD
-    
-=======
-    assert False
->>>>>>> 88927cdb4bd75c2dea5f237de4aa400c069b1b5c
-
 
 def test_auth(client):
     body = {'email': EMAIL,
